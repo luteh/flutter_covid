@@ -1,16 +1,12 @@
-# flutter_covid
+# Simple Covid Cases apps
 
-A new Flutter project.
+Simple covid cases apps to show covid cases amount in Indonesia that presented as a chart data.
+Developed using : 
+- flutter, 
+- clean architecture, 
+- BLoC as a state management, 
+- getIt & injectable as a dependency injection, 
+- dartz as a functional programming, 
+- freezed as data & union class, also serialize & deserialize json
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Data based on https://covid19.mathdro.id/api
