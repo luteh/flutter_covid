@@ -5,7 +5,7 @@ import 'package:injectable/injectable.dart';
 abstract class RegisterModule {
   // You can register named preemptive types like follows
   @Named("BaseUrl")
-  String get baseUrl => 'https://api.themoviedb.org/3';
+  String get baseUrl => 'https://covid19.mathdro.id/api';
 
   // url here will be injected
   @lazySingleton

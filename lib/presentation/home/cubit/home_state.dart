@@ -1,6 +1,9 @@
 part of 'home_cubit.dart';
 
 @freezed
-abstract class HomeState with _$HomeState {
-  const factory HomeState.initial() = _Initial;
+class HomeState with _$HomeState {
+  const factory HomeState({
+    @Default(-1) int pieChartTouchedIndex,
+    @Default(ResultState.initial()) ResultState<CovidCases> resultState,
+  }) = _HomeState;
 }
