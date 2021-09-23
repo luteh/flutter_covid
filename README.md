@@ -1,6 +1,6 @@
 # Simple Covid Cases apps
 
-Simple covid cases apps to show covid cases amount in Indonesia that presented as a chart data.
+Show covid cases amount in Indonesia that presented as a chart data.
 Developed using : 
 - flutter, 
 - clean architecture, 
